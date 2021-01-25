@@ -1,0 +1,21 @@
+.header{
+    padding: 30px 0;
+    background-color: rgb(55,126,128);
+    
+}
+.header h1 {
+    color: rgb(243 254 33);
+    text-align: center;
+    font-family: sans-serif;
+}
+.col-1{
+    display: flex;
+}
+img {
+    height: 200px;
+}
+.btn{
+    background-color: rgb(56,126,127);
+    padding: 10px;
+    text-align: center;
+}
