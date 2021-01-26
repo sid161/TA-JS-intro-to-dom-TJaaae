@@ -8,7 +8,10 @@ body {
 .container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
-  grid-gap: 1rem;
+  grid-gap: 2rem;
+  padding: 1rem;
+  width: 100%;
+  margin: 0 auto;
 }
 .box {
   border: 2px solid #d6bcfa;
@@ -18,4 +21,21 @@ body {
 h1,
 h2 {
   text-align: center;
+}
+p{
+  text-align: center;
+}
+.flex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button{
+  width: 100%;
+  padding: 0.5rem 0;
+  border: none;
+  background-color: #E7EDFD;
+  color: #556EE0;
+  font-size: 1.3rem;
+  border-radius: 0.5rem;
 }
