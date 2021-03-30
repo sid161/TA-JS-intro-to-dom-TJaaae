@@ -1,5 +1,5 @@
 // 1. Change the title of the page to `Hello AltCampus!`
-document.title = `Hello AltCampus!`;
+document.title = `Hello AltCampus`;
 
 // 2. Select the element using the children property:
 
@@ -15,7 +15,7 @@ document.body.children[6].children[2];
 let ul = document.body.children[5];
 console.log('the length of li element is ${ul.children.length}');
 // 4. Select the first input using the `type` selector and store them in variable named `emailInput`
-let emailInput = document.querySelector('input');
+let emailInput = document.querySelector(`input`);
 
 // 5. Select the ul element using class selector and store in `topics`
 let topics = document.querySelector(.topics);
