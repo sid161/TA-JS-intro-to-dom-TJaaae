@@ -6,15 +6,9 @@ default value to be "text" and return the input element inside label. (create it
 */
 
 // Your code goes here
-function createInputElm(labelMessage, type = "text"){
- let label = document.createElement("label");
- let input = document.createElement("input");
 
- input.type = type;
- label.innerText = labelMessage;
- label.append(input);
-
- return label;
+function createInputElm(label,type = "text"){
+  re
 }
 
 // TEST
@@ -47,7 +41,7 @@ function createList(data = []){
 createList(['ALABAMA', 'ALASKA', 'HAWAII', 'KENTUCKY']);
 createList(['Afghanistan', 'Antarctica', 'Congo', 'Estonia']);
 
-// 4. Create a function named `createTodoList` that accept and array of data like [{name: "Learn DOM", isDone: false}, {name: "Learn JS", isDone: true}] and returns
+// 4. Create a function named `createTodoList` that accept and array of data like [{name: "Learn DOM", isDon00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000e: false}, {name: "Learn JS", isDone: true}] and returns
 // the html for single todo will look like given below
 /* 
 <ul>
