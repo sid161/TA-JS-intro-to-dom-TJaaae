@@ -176,8 +176,8 @@ box7.remove();
 box7.append('imgElm');
 
 // Change the width and height of the image to `100%`
-imgElm.style.width = 100%;
-imgElm.style.height = 100%;
+imgElm.style.width = 100%
+imgElm.style.height = 100%
 
 // Select the box 5 using class five
 document.querySelector('.five');
