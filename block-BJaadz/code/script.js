@@ -124,11 +124,11 @@ para.style.fontSize = "0.8rem";
 
 // Change the background of all the alternate boxes (1, 3, 5, ....) to aliceblue
 let allBoxes = document.querySelectorAll('.box');
-allBoxes.forEach(elm,index) => {
+allBoxes.forEach((elm,index) => {
   if ((index + 1) % 2 !== 0) {
     elm.style.backgroundColor = "aliceblue";
   }
-}
+});
 
 // add a class named "awesome-box" to the box 6 using classList property of DOM element.
 box6.classList.add('awesome-box');
@@ -176,8 +176,8 @@ box7.remove();
 box7.append('imgElm');
 
 // Change the width and height of the image to `100%`
-imgElm.style.width = 100%;
-imgElm.style.height = 100%;
+imgElm.style.width = 100%
+imgElm.style.height = 100%
 
 // Select the box 5 using class five
 document.querySelector('.five');
