@@ -115,6 +115,27 @@ let books = [
     },
   ];
 
+
+
+
+
+
+
+
+  books.forEach(book =
+
+
+
+
+
+
+
+
+
+
+
+
+
 books.forEach((book) => {
   let card = document.createElement('article');
   card.classList.add('card');
